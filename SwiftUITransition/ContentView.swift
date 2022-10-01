@@ -33,6 +33,7 @@ struct ContentView: View {
                         .bold()
                         .foregroundColor(.white)
                 )
+                .transition(.scale(scale: 0, anchor: .bottom))
             }
         }
         .onTapGesture {
